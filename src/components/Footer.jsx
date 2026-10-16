@@ -10,7 +10,7 @@ const Footer = () => {
       { name: "Commands", href: "#commands" },
       {
         name: "Documentation",
-        href: "https://github.com/lakzexe/HasiiMusicBot#readme",
+        href: "https://github.com/hazindu/HasiiMusicBot#readme",
       },
     ],
     community: [
@@ -18,21 +18,21 @@ const Footer = () => {
       { name: "Support Group", href: "https://t.me/TheInfinityAI" },
       {
         name: "Contribute",
-        href: "https://github.com/lakzexe/HasiiMusicBot/pulls",
+        href: "https://github.com/hazindu/HasiiMusicBot/pulls",
       },
     ],
     resources: [
       {
         name: "GitHub Repo",
-        href: "https://github.com/lakzexe/HasiiMusicBot",
+        href: "https://github.com/hazindu/HasiiMusicBot",
       },
       {
         name: "License (GPL V3)",
-        href: "https://github.com/lakzexe/HasiiMusicBot/blob/main/LICENSE",
+        href: "https://github.com/hazindu/HasiiMusicBot/blob/main/LICENSE",
       },
       {
         name: "Project Structure",
-        href: "https://github.com/lakzexe/HasiiMusicBot/blob/main/Structure.md",
+        href: "https://github.com/hazindu/HasiiMusicBot/blob/main/Structure.md",
       },
     ],
   };
@@ -72,7 +72,7 @@ const Footer = () => {
             </p>
             <div className="flex gap-4">
               <a
-                href="https://github.com/lakzexe/HasiiMusicBot"
+                href="https://github.com/hazindu/HasiiMusicBot"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 dark:bg-gray-800 hover:text-brand-primary transition-colors"
@@ -92,7 +92,9 @@ const Footer = () => {
 
           {/* Product Links */}
           <div>
-            <h3 className="text-brand-dark dark:text-white font-semibold mb-4">Product</h3>
+            <h3 className="text-brand-dark dark:text-white font-semibold mb-4">
+              Product
+            </h3>
             <ul className="space-y-2">
               {links.product.map((link) => (
                 <li key={link.name}>
@@ -118,7 +120,9 @@ const Footer = () => {
 
           {/* Community Links */}
           <div>
-            <h3 className="text-brand-dark dark:text-white font-semibold mb-4">Community</h3>
+            <h3 className="text-brand-dark dark:text-white font-semibold mb-4">
+              Community
+            </h3>
             <ul className="space-y-2">
               {links.community.map((link) => (
                 <li key={link.name}>
@@ -138,7 +142,9 @@ const Footer = () => {
 
           {/* Resources Links */}
           <div>
-            <h3 className="text-brand-dark dark:text-white font-semibold mb-4">Resources</h3>
+            <h3 className="text-brand-dark dark:text-white font-semibold mb-4">
+              Resources
+            </h3>
             <ul className="space-y-2">
               {links.resources.map((link) => (
                 <li key={link.name}>
@@ -163,7 +169,7 @@ const Footer = () => {
             <p className="text-gray-500 dark:text-gray-400 text-sm text-center md:text-left">
               © {currentYear} HasiiMusicBot. All rights reserved. Developed by{" "}
               <a
-                href="https://github.com/lakzexe"
+                href="https://github.com/hazindu"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-brand-primary font-medium hover:text-brand-secondary transition-colors"

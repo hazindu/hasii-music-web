@@ -14,21 +14,21 @@ const Stats = () => {
     {
       icon: Users,
       label: "Served Groups",
-      target: 650,
+      target: 750,
       key: "groups",
       suffix: "+",
     },
      {
       icon: MessageCircle,
       label: "Active Chats",
-      target: 200,
+      target: 300,
       key: "chats",
       suffix: "+",
     },
     {
       icon: MusicIcon,
       label: "Songs Played",
-      target: 200,
+      target: 400,
       key: "songs",
       suffix: "K+",
     },
@@ -42,7 +42,7 @@ const Stats = () => {
     {
       icon: TrendingUp,
       label: "Uptime",
-      target: 99,
+      target: 95,
       key: "uptime",
       suffix: "%",
     },
